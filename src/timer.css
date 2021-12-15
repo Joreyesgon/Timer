@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(35, 36, 31);
+}
+
+.myTimer {
+  background: rgb(8, 8, 8);
+  color: whitesmoke;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
