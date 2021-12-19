@@ -3,7 +3,8 @@ import './timer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faClock} from '@fortawesome/free-solid-svg-icons';
 
-class Counter extends Component {
+//Componente de clase
+class Counter extends Component { 
     constructor(props){
         super(props)
         this.state = {
@@ -31,3 +32,6 @@ class Counter extends Component {
 };
 
 export default Counter;
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes
+//https://es.reactjs.org/docs/state-and-lifecycle.html
