@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './timer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faClock} from '@fortawesome/free-solid-svg-icons';
+import {faClock, faHourglassStart, faStopwatch20} from '@fortawesome/free-solid-svg-icons';
 
 //Componente de clase
 class Counter extends Component { 
@@ -16,8 +16,9 @@ class Counter extends Component {
         const {count} = this.state
         return(
             <div className="myTimer">
-               <div className="myInfo"><h1><FontAwesomeIcon icon={faClock}></FontAwesomeIcon></h1></div>
+               <div className="myInfo"><h1><FontAwesomeIcon icon={faHourglassStart}></FontAwesomeIcon></h1></div>
                <div className><h1>{count}</h1></div>
+               <div className><h1>seconds</h1></div>
             </div>
         )
     };
